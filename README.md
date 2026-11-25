@@ -15,6 +15,7 @@
   <p>
     <img src="https://komarev.com/ghpvc/?username=abdelrahmanelharouny&label=PROFILE%20VIEWS&color=FF7A90&style=for-the-badge" alt="Profile views counter" />
     <img src="https://img.shields.io/github/followers/abdelrahmanelharouny?label=FOLLOWERS&style=for-the-badge&color=8B7CFF&logo=github" alt="GitHub followers" />
+    <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fabdelrahmanelharouny&query=%24.public_repos&label=PUBLIC%20REPOS&color=57D9D0&style=for-the-badge&logo=github" alt="Public repository count" />
     <img src="https://img.shields.io/badge/PROJECTS%20SHOWCASED-14-55D6BE?style=for-the-badge&logo=github" alt="14 showcased projects" />
     <img src="https://img.shields.io/badge/TEACHING%20SESSIONS-54-FFD166?style=for-the-badge&logo=bookstack&logoColor=111827" alt="54 programming sessions" />
   </p>
@@ -235,6 +236,7 @@ I organize tools by the work they support, not as one long badge wall. The visua
 
 </details>
 
+<a id="how-i-build"></a>
 ## `06 / HOW I BUILD` — My engineering loop
 
 <p align="center">
