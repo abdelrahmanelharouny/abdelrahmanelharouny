@@ -1,48 +1,86 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="850" viewBox="0 0 1440 850" role="img" aria-labelledby="title desc">
-<title id="title">AEL — Connected Project Playground</title>
-<desc id="desc">A playful colorful map of 14 showcased repositories grouped into six connected engineering domains.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="820" viewBox="0 0 1440 820" role="img" aria-labelledby="title desc">
+<title id="title">AEL — Selected Engineering Work</title>
+<desc id="desc">A structured portfolio map grouping projects into six technical domains.</desc>
 <defs>
-  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101327"/><stop offset="1" stop-color="#102630"/></linearGradient>
-  <linearGradient id="core" x2="1"><stop stop-color="#ffd166"/><stop offset="1" stop-color="#ff8b9b"/></linearGradient>
-  <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#c7d4ff" opacity=".15"/></pattern>
-  <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0A0F12"/><stop offset="1" stop-color="#111B1F"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#D7F36A"/><stop offset="1" stop-color="#9BD7B2"/></linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#8FA49A" stroke-opacity=".07"/></pattern>
 </defs>
-<rect width="1440" height="850" rx="26" fill="url(#bg)"/><rect width="1440" height="850" rx="26" fill="url(#dots)"/>
-<text x="58" y="58" font-family="Arial,Helvetica,sans-serif" fill="#63e6d2" font-size="14" font-weight="700" letter-spacing="4">AEL / CONNECTED PROJECT PLAYGROUND</text>
-<text x="58" y="101" font-family="Arial,Helvetica,sans-serif" fill="#f8f7ff" font-size="32" font-weight="800">Different problems. One curious engineering mindset.</text>
-<text x="1380" y="58" text-anchor="end" font-family="monospace" fill="#ffd166" font-size="12">14 PROJECTS  /  6 DOMAINS</text>
-<g fill="none" stroke-linecap="round" stroke-width="2" opacity=".65">
-  <path d="M720 426 C570 300 455 230 380 214" stroke="#63e6d2" stroke-dasharray="5 8"/>
-  <path d="M720 426 C870 300 985 230 1060 214" stroke="#ff8b9b" stroke-dasharray="5 8"/>
-  <path d="M720 426 C535 426 450 426 350 426" stroke="#a99aff" stroke-dasharray="5 8"/>
-  <path d="M720 426 C905 426 990 426 1090 426" stroke="#ffd166" stroke-dasharray="5 8"/>
-  <path d="M720 426 C580 555 480 630 420 680" stroke="#ff9e80" stroke-dasharray="5 8"/>
-  <path d="M720 426 C860 555 960 630 1020 680" stroke="#77e6a8" stroke-dasharray="5 8"/>
-</g>
-<g filter="url(#glow)"><circle cx="720" cy="426" r="102" fill="#22264a" stroke="url(#core)" stroke-width="3"/><circle cx="720" cy="426" r="86" fill="none" stroke="#63e6d2" stroke-opacity=".65" stroke-dasharray="4 8" stroke-width="2"/></g>
-<text x="720" y="401" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="18" fill="#ffd166" font-weight="800" letter-spacing="3">AEL</text>
-<text x="720" y="432" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="23" fill="#ffffff" font-weight="800">MAKE IT REAL</text>
-<text x="720" y="458" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#bfc9e9" letter-spacing="2">IDEA → SYSTEM → IMPACT</text>
+<rect width="1440" height="820" rx="24" fill="url(#bg)"/>
+<rect width="1440" height="820" rx="24" fill="url(#grid)"/>
 <g font-family="Arial,Helvetica,sans-serif">
-  <rect x="58" y="142" width="390" height="150" rx="20" fill="#16353a" stroke="#63e6d2" stroke-width="2"/>
-  <circle cx="88" cy="178" r="7" fill="#63e6d2"/><text x="108" y="183" fill="#9ff8ea" font-size="12" font-weight="800" letter-spacing="2">01 / AGENTIC AI &amp; RAG</text>
-  <text x="84" y="225" fill="#ffffff" font-size="23" font-weight="800">Modrik</text><text x="84" y="253" fill="#c6dfde" font-size="15">Advanced Smart Contract Assistant</text><text x="84" y="275" fill="#77e6d2" font-size="11">AGENTS · RETRIEVAL · HUMAN REVIEW</text>
-  <rect x="992" y="142" width="390" height="150" rx="20" fill="#432c43" stroke="#ff8b9b" stroke-width="2"/>
-  <circle cx="1022" cy="178" r="7" fill="#ff8b9b"/><text x="1042" y="183" fill="#ffc0d0" font-size="12" font-weight="800" letter-spacing="2">02 / GEO INTELLIGENCE</text>
-  <text x="1018" y="225" fill="#ffffff" font-size="23" font-weight="800">CropTwist</text><text x="1018" y="253" fill="#efd4e0" font-size="15">Agriculture decision intelligence</text><text x="1018" y="275" fill="#ff9eaf" font-size="11">POSTGIS · OPTIMIZATION · PROVENANCE</text>
-  <rect x="58" y="352" width="340" height="150" rx="20" fill="#302b55" stroke="#a99aff" stroke-width="2"/>
-  <circle cx="88" cy="388" r="7" fill="#a99aff"/><text x="108" y="393" fill="#d7ceff" font-size="12" font-weight="800" letter-spacing="2">03 / LEARNING SYSTEMS</text>
-  <text x="84" y="435" fill="#ffffff" font-size="23" font-weight="800">AlgoVerse</text><text x="84" y="464" fill="#dbd6f4" font-size="14">Algorithms made explorable</text><text x="84" y="486" fill="#b8aaff" font-size="11">VISUALIZATION · DP · GRAPH ALGORITHMS</text>
-  <rect x="1042" y="352" width="340" height="150" rx="20" fill="#463d27" stroke="#ffd166" stroke-width="2"/>
-  <circle cx="1072" cy="388" r="7" fill="#ffd166"/><text x="1092" y="393" fill="#ffe5a4" font-size="12" font-weight="800" letter-spacing="2">04 / ML RESEARCH</text>
-  <text x="1068" y="435" fill="#ffffff" font-size="21" font-weight="800">Deepfake · Brain MRI</text><text x="1068" y="464" fill="#efe1c1" font-size="14">LungSeg and evaluation studies</text><text x="1068" y="486" fill="#ffd166" font-size="11">MODELS · UNCERTAINTY · VALIDATION</text>
-  <rect x="58" y="610" width="560" height="160" rx="20" fill="#3e2f31" stroke="#ff9e80" stroke-width="2"/>
-  <circle cx="88" cy="646" r="7" fill="#ff9e80"/><text x="108" y="651" fill="#ffd0bc" font-size="12" font-weight="800" letter-spacing="2">05 / VISION &amp; SECURITY</text>
-  <text x="84" y="696" fill="#ffffff" font-size="19" font-weight="800">Egyptian Monuments · Smart Classroom</text><text x="84" y="725" fill="#f0d8ce" font-size="15">Network Intrusion · Zero-shot Voice</text><text x="84" y="750" fill="#ffad91" font-size="11">PERCEPTION · TRACKING · THREAT DETECTION</text>
-  <rect x="822" y="610" width="560" height="160" rx="20" fill="#1e403b" stroke="#77e6a8" stroke-width="2"/>
-  <circle cx="852" cy="646" r="7" fill="#77e6a8"/><text x="872" y="651" fill="#b9f7d4" font-size="12" font-weight="800" letter-spacing="2">06 / SYSTEMS &amp; VISUAL COMPUTING</text>
-  <text x="848" y="696" fill="#ffffff" font-size="19" font-weight="800">OrbitX · 3D Maze Explorer · OpenGL Pong</text><text x="848" y="725" fill="#d0ecdf" font-size="15">Physics · Rendering · Procedural generation</text><text x="848" y="750" fill="#8ff0bd" font-size="11">C++ · OPENGL · SIMULATION</text>
+  <text x="58" y="58" fill="#D7F36A" font-family="monospace" font-size="12" font-weight="700" letter-spacing="2.7">AEL / ENGINEERING PORTFOLIO</text>
+  <text x="58" y="108" fill="#F1F3EC" font-size="34" font-weight="800" letter-spacing="-1">One engineering mindset. Different problem spaces.</text>
+  <text x="1380" y="59" fill="#80918D" text-anchor="end" font-family="monospace" font-size="10" letter-spacing="1.5">SELECTED SYSTEMS / 2025—2026</text>
+  <path d="M58 136H1382" stroke="#35444A"/>
 </g>
-<g filter="url(#glow)"><circle cx="448" cy="214" r="6" fill="#63e6d2"/><circle cx="992" cy="214" r="6" fill="#ff8b9b"/><circle cx="398" cy="426" r="6" fill="#a99aff"/><circle cx="1042" cy="426" r="6" fill="#ffd166"/><circle cx="618" cy="680" r="6" fill="#ff9e80"/><circle cx="822" cy="680" r="6" fill="#77e6a8"/></g>
-<text x="720" y="817" text-anchor="middle" fill="#9ba8cb" font-family="monospace" font-size="11" letter-spacing="1.5">FOLLOW THE ROUTES IN THE README TO OPEN EACH PROJECT COLLECTION</text>
+
+<g font-family="Arial,Helvetica,sans-serif">
+  <g transform="translate(58 174)">
+    <rect width="414" height="266" rx="14" fill="#121D21" stroke="#34464A"/>
+    <rect width="4" height="266" rx="2" fill="#D7F36A"/>
+    <text x="28" y="42" fill="#D7F36A" font-family="monospace" font-size="11" font-weight="700" letter-spacing="1.8">01 / AGENTIC AI &amp; RETRIEVAL</text>
+    <text x="28" y="94" fill="#F1F3EC" font-size="27" font-weight="800">Knowledge systems</text>
+    <text x="28" y="137" fill="#D8E1DB" font-size="17" font-weight="700">MODRIK</text>
+    <text x="28" y="164" fill="#A4B2AD" font-size="14">Advanced Smart Contract Assistant</text>
+    <path d="M28 194H386" stroke="#304146"/>
+    <text x="28" y="223" fill="#84958F" font-family="monospace" font-size="10" letter-spacing="1.2">AGENTS · RAG · EVIDENCE · HUMAN REVIEW</text>
+  </g>
+
+  <g transform="translate(513 174)">
+    <rect width="414" height="266" rx="14" fill="#121D21" stroke="#34464A"/>
+    <rect width="4" height="266" rx="2" fill="#D7F36A"/>
+    <text x="28" y="42" fill="#D7F36A" font-family="monospace" font-size="11" font-weight="700" letter-spacing="1.8">02 / GEO INTELLIGENCE</text>
+    <text x="28" y="94" fill="#F1F3EC" font-size="27" font-weight="800">Decision systems</text>
+    <text x="28" y="137" fill="#D8E1DB" font-size="17" font-weight="700">CROPTWIST</text>
+    <text x="28" y="164" fill="#A4B2AD" font-size="14">Field-level agriculture decision support</text>
+    <path d="M28 194H386" stroke="#304146"/>
+    <text x="28" y="223" fill="#84958F" font-family="monospace" font-size="10" letter-spacing="1.2">POSTGIS · OPTIMIZATION · DATA PROVENANCE</text>
+  </g>
+
+  <g transform="translate(968 174)">
+    <rect width="414" height="266" rx="14" fill="#121D21" stroke="#34464A"/>
+    <rect width="4" height="266" rx="2" fill="#D7F36A"/>
+    <text x="28" y="42" fill="#D7F36A" font-family="monospace" font-size="11" font-weight="700" letter-spacing="1.8">03 / INTERACTIVE PRODUCTS</text>
+    <text x="28" y="94" fill="#F1F3EC" font-size="27" font-weight="800">Learning systems</text>
+    <text x="28" y="137" fill="#D8E1DB" font-size="17" font-weight="700">ALGOVERSE</text>
+    <text x="28" y="164" fill="#A4B2AD" font-size="14">Algorithms made explorable</text>
+    <path d="M28 194H386" stroke="#304146"/>
+    <text x="28" y="223" fill="#84958F" font-family="monospace" font-size="10" letter-spacing="1.2">VISUALIZATION · DP · GRAPH ALGORITHMS</text>
+  </g>
+
+  <g transform="translate(58 472)">
+    <rect width="414" height="266" rx="14" fill="#121D21" stroke="#34464A"/>
+    <rect width="4" height="266" rx="2" fill="#9BD7B2"/>
+    <text x="28" y="42" fill="#9BD7B2" font-family="monospace" font-size="11" font-weight="700" letter-spacing="1.8">04 / MACHINE LEARNING</text>
+    <text x="28" y="94" fill="#F1F3EC" font-size="27" font-weight="800">Model research</text>
+    <text x="28" y="137" fill="#D8E1DB" font-size="16" font-weight="700">DEEPFAKE VOICE · BRAIN MRI</text>
+    <text x="28" y="164" fill="#A4B2AD" font-size="14">LungSeg · Egyptian Monuments</text>
+    <path d="M28 194H386" stroke="#304146"/>
+    <text x="28" y="223" fill="#84958F" font-family="monospace" font-size="10" letter-spacing="1.2">EXPERIMENTS · EVALUATION · UNCERTAINTY</text>
+  </g>
+
+  <g transform="translate(513 472)">
+    <rect width="414" height="266" rx="14" fill="#121D21" stroke="#34464A"/>
+    <rect width="4" height="266" rx="2" fill="#9BD7B2"/>
+    <text x="28" y="42" fill="#9BD7B2" font-family="monospace" font-size="11" font-weight="700" letter-spacing="1.8">05 / VISION &amp; SECURITY</text>
+    <text x="28" y="94" fill="#F1F3EC" font-size="27" font-weight="800">Perception systems</text>
+    <text x="28" y="137" fill="#D8E1DB" font-size="16" font-weight="700">SMART CLASSROOM</text>
+    <text x="28" y="164" fill="#A4B2AD" font-size="14">Network Intrusion · Zero-Shot Voice</text>
+    <path d="M28 194H386" stroke="#304146"/>
+    <text x="28" y="223" fill="#84958F" font-family="monospace" font-size="10" letter-spacing="1.2">DETECTION · TRACKING · THREAT ANALYSIS</text>
+  </g>
+
+  <g transform="translate(968 472)">
+    <rect width="414" height="266" rx="14" fill="#121D21" stroke="#34464A"/>
+    <rect width="4" height="266" rx="2" fill="#9BD7B2"/>
+    <text x="28" y="42" fill="#9BD7B2" font-family="monospace" font-size="11" font-weight="700" letter-spacing="1.8">06 / SYSTEMS &amp; GRAPHICS</text>
+    <text x="28" y="94" fill="#F1F3EC" font-size="27" font-weight="800">Visual computing</text>
+    <text x="28" y="137" fill="#D8E1DB" font-size="16" font-weight="700">ORBITX · 3D MAZE EXPLORER</text>
+    <text x="28" y="164" fill="#A4B2AD" font-size="14">OpenGL Pong</text>
+    <path d="M28 194H386" stroke="#304146"/>
+    <text x="28" y="223" fill="#84958F" font-family="monospace" font-size="10" letter-spacing="1.2">C++ · OPENGL · SIMULATION · RENDERING</text>
+  </g>
+</g>
+<text x="1380" y="786" fill="#657773" text-anchor="end" font-family="monospace" font-size="10" letter-spacing="1.2">RESEARCH / BUILD / EVALUATE / DELIVER</text>
 </svg>

@@ -1,0 +1,50 @@
+name: Refresh profile telemetry
+
+on:
+  pull_request:
+    branches:
+      - main
+  schedule:
+    - cron: "23 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/generate_profile_metrics.py"
+      - "tests/test_profile_metrics.py"
+      - ".github/workflows/profile-metrics.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Test the metrics renderer
+        run: python -m unittest discover -s tests -v
+
+      - name: Generate the live metrics dashboard
+        if: github.event_name != 'pull_request'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: abdelrahmanelharouny
+        run: python scripts/generate_profile_metrics.py --output dist/profile-metrics.svg
+
+      - name: Publish dashboard to the output branch
+        if: github.event_name != 'pull_request'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          force_orphan: true
