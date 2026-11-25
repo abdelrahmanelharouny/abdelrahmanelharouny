@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="420" viewBox="0 0 1440 420" role="img" aria-labelledby="title desc">
+<title id="title">Abdelrahman El-Harouny — Intelligence Lab</title>
+<desc id="desc">A dark technical identity banner with a connected intelligence map, orbital paths, and engineering system panels.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071015"/><stop offset="0.58" stop-color="#0d1b20"/><stop offset="1" stop-color="#101c25"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#b9f36b"/><stop offset="1" stop-color="#56d9cf"/></linearGradient>
+  <radialGradient id="glow"><stop offset="0" stop-color="#b9f36b" stop-opacity=".22"/><stop offset="1" stop-color="#b9f36b" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#9bb7b4" stroke-opacity=".09" stroke-width="1"/></pattern>
+  <filter id="soft"><feGaussianBlur stdDeviation="20"/></filter>
+  <filter id="shine"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1440" height="420" rx="24" fill="url(#bg)"/><rect width="1440" height="420" rx="24" fill="url(#grid)"/>
+<circle cx="1180" cy="190" r="260" fill="url(#glow)" filter="url(#soft)"/>
+<path d="M0 350 C260 300 440 435 720 340 S1160 280 1440 350" fill="none" stroke="#56d9cf" stroke-opacity=".18" stroke-width="2"/>
+<path d="M0 374 C280 320 460 455 760 365 S1200 306 1440 375" fill="none" stroke="#b9f36b" stroke-opacity=".16" stroke-width="1.5"/>
+<g font-family="Arial, Helvetica, sans-serif">
+  <text x="76" y="68" fill="#b9f36b" font-size="15" font-weight="700" letter-spacing="4">AEL / INTELLIGENCE LAB</text>
+  <text x="72" y="174" fill="#f1f5f3" font-size="65" font-weight="800" letter-spacing="-2">ABDELRAHMAN</text>
+  <text x="72" y="244" fill="#f1f5f3" font-size="65" font-weight="800" letter-spacing="-2">ELHAROUNY<tspan fill="#56d9cf">.</tspan></text>
+  <text x="78" y="294" fill="#c3d1d0" font-size="19" font-weight="600" letter-spacing="2">AI SYSTEMS  ·  MACHINE LEARNING  ·  PRODUCT ENGINEERING</text>
+  <rect x="78" y="327" width="58" height="3" rx="2" fill="url(#accent)"/>
+  <text x="151" y="334" fill="#a9bfbc" font-size="14" letter-spacing="2">BEYOND THE NOTEBOOK — BUILD, EVALUATE, SHIP.</text>
+</g>
+<g transform="translate(1010 34)">
+  <rect x="0" y="0" width="360" height="330" rx="18" fill="#0a151a" fill-opacity=".62" stroke="#8ba5a1" stroke-opacity=".24"/>
+  <text x="22" y="30" fill="#78928f" font-family="monospace" font-size="10" letter-spacing="2">SYSTEM MAP / AEL-01</text>
+  <text x="310" y="30" fill="#b9f36b" font-family="monospace" font-size="10" text-anchor="end">ONLINE</text>
+  <g fill="none" stroke-linecap="round">
+    <path d="M180 165 L90 90 L48 178 L112 260 L180 165 L270 84 L318 184 L250 270 L180 165" stroke="#56d9cf" stroke-opacity=".7" stroke-width="1.6"/>
+    <path d="M90 90 L270 84 M48 178 L318 184 M112 260 L250 270 M90 90 L250 270 M112 260 L270 84" stroke="#b9f36b" stroke-opacity=".28" stroke-width="1"/>
+    <circle cx="180" cy="165" r="84" stroke="#56d9cf" stroke-opacity=".27" stroke-dasharray="3 7"/><circle cx="180" cy="165" r="122" stroke="#b9f36b" stroke-opacity=".16" stroke-dasharray="2 9"/>
+  </g>
+  <g filter="url(#shine)"><circle cx="180" cy="165" r="13" fill="#b9f36b"/><circle cx="180" cy="165" r="4" fill="#102027"/><circle cx="90" cy="90" r="5" fill="#56d9cf"/><circle cx="48" cy="178" r="5" fill="#b9f36b"/><circle cx="112" cy="260" r="5" fill="#56d9cf"/><circle cx="270" cy="84" r="5" fill="#b9f36b"/><circle cx="318" cy="184" r="5" fill="#56d9cf"/><circle cx="250" cy="270" r="5" fill="#b9f36b"/></g>
+  <g fill="#91aaa6" font-family="monospace" font-size="9"><text x="22" y="314">RESEARCH</text><text x="180" y="314" text-anchor="middle">ENGINEERING</text><text x="338" y="314" text-anchor="end">IMPACT</text></g>
+</g>
+<text x="1370" y="394" text-anchor="end" fill="#66817e" font-family="monospace" font-size="11" letter-spacing="2">EGYPT  /  AEL-01</text>
+</svg>

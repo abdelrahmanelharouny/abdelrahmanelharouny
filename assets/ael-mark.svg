@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="AEL monogram">
+<defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#b9f36b"/><stop offset="1" stop-color="#56d9cf"/></linearGradient></defs>
+<rect x="4" y="4" width="120" height="120" rx="28" fill="#0a151b" stroke="#294148" stroke-width="2"/>
+<path d="M25 91 L52 34 H65 L92 91 H76 L70 77 H47 L41 91 Z M53 64 H64 L58.5 51 Z" fill="url(#g)"/>
+<path d="M83 36 H101 V49 H83 Z M83 57 H101 V70 H83 Z M83 78 H101 V91 H83 Z" fill="#56d9cf" opacity=".9"/><circle cx="105" cy="24" r="5" fill="#b9f36b"/>
+</svg>
