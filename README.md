@@ -4,6 +4,9 @@
   <p><strong>Computer Science</strong> · <strong>Applied AI & Machine Learning</strong> · <strong>AI Engineering</strong></p>
   <p><sub>I turn real-world problems into intelligent systems — from the first question to a product people can use.</sub></p>
   <p>
+    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=18&pause=900&color=63E6D2&center=true&vCenter=true&width=920&height=38&duration=3200&lines=Building+AI+systems+people+can+trust;Turning+research+into+working+products;Exploring+ML%2C+RAG%2C+and+computer+vision" alt="Animated rotating introduction" />
+  </p>
+  <p>
     <a href="#about">About</a> · <a href="#systems">Systems</a> · <a href="#portfolio">Portfolio</a> ·
     <a href="#skills">Skills</a> · <a href="#experience">Experience</a> · <a href="#learning">Learning</a> · <a href="#connect">Connect</a>
   </p>
