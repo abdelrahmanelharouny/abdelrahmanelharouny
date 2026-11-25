@@ -1,20 +1,72 @@
 <div align="center">
   <img src="./assets/ael-hero.svg" width="100%" alt="Abdelrahman El-Harouny — AEL Intelligence Lab" />
-  <h3>Building AI systems that move beyond the notebook.</h3>
+  <h1>Curiosity starts the idea. Engineering makes it real.</h1>
   <p><strong>Computer Science</strong> · <strong>Applied AI & Machine Learning</strong> · <strong>AI Engineering</strong></p>
-  <p><sub>Research with evidence. Engineering with intent. Products with purpose.</sub></p>
+  <p><sub>I turn real-world problems into intelligent systems — from the first question to a product people can use.</sub></p>
   <p>
     <a href="#about">About</a> · <a href="#systems">Systems</a> · <a href="#portfolio">Portfolio</a> ·
     <a href="#skills">Skills</a> · <a href="#experience">Experience</a> · <a href="#learning">Learning</a> · <a href="#connect">Connect</a>
   </p>
   <p>
-    <a href="https://www.linkedin.com/in/abdelrahman-el-harouny-150363286/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="https://www.linkedin.com/in/eng-abdelrahman-elharouny/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
     <a href="https://www.kaggle.com/abdelrahmanelharouny"><img src="https://img.shields.io/badge/Kaggle-Explore-20BEFF?style=flat-square&logo=kaggle&logoColor=white" alt="Kaggle" /></a>
     <a href="https://www.credly.com/users/abdelrahman-el-harouny.88e314c3"><img src="https://img.shields.io/badge/Credly-Credentials-FF6B00?style=flat-square&logo=credly&logoColor=white" alt="Credly" /></a>
+  </p>
+  <p>
+    <img src="https://komarev.com/ghpvc/?username=abdelrahmanelharouny&label=PROFILE%20VIEWS&color=FF7A90&style=for-the-badge" alt="Profile views counter" />
+    <img src="https://img.shields.io/github/followers/abdelrahmanelharouny?label=FOLLOWERS&style=for-the-badge&color=8B7CFF&logo=github" alt="GitHub followers" />
+    <img src="https://img.shields.io/badge/PROJECTS%20SHOWCASED-14-55D6BE?style=for-the-badge&logo=github" alt="14 showcased projects" />
+    <img src="https://img.shields.io/badge/TEACHING%20SESSIONS-54-FFD166?style=for-the-badge&logo=bookstack&logoColor=111827" alt="54 programming sessions" />
+  </p>
+  <p><sub>Profile views count counter loads, not unique people. The number is a lightweight reach signal, not an audience census.</sub></p>
+  <p>
+    <a href="#choose-your-route">🧭 CHOOSE YOUR ROUTE</a> ·
+    <a href="#live-telemetry">📊 LIVE TELEMETRY</a> ·
+    <a href="#skills">🧰 SKILL ARCADE</a>
   </p>
 </div>
 
 ---
+
+<a id="choose-your-route"></a>
+## 🧭 Choose your route
+
+Not everyone visits for the same reason. Pick a path and jump straight into the part of my work that matters to you.
+
+<details>
+<summary>🧑‍💼 <strong>I'm hiring — show me the signal</strong></summary>
+
+Start with the systems I build, the problems I solve, and the experience behind them.
+
+- [Flagship systems: Modrik & CropTwist](#systems)
+- [Selected portfolio and project outcomes](#portfolio)
+- [Technical skills by domain](#skills)
+- [Work experience, teaching, and mentoring](#experience)
+- [Get in touch](#connect)
+</details>
+
+<details>
+<summary>🛠️ <strong>I'm an engineer — show me the architecture</strong></summary>
+
+Explore implementation choices, tools, and engineering trade-offs.
+
+- [Agentic systems and RAG](#applied-ai)
+- [ML research and evaluation](#ml-research)
+- [Computer vision and security](#vision-security)
+- [Systems, algorithms, and graphics](#systems-graphics)
+- [How I build](#how-i-build)
+</details>
+
+<details>
+<summary>🔬 <strong>I'm a researcher — show me the experiments</strong></summary>
+
+Explore methods, evaluation, uncertainty, and what each repository does—and does not—claim.
+
+- [Machine learning and research projects](#ml-research)
+- [Applied AI and retrieval systems](#applied-ai)
+- [Engineering loop and evaluation mindset](#how-i-build)
+- [Learning archive](#learning)
+</details>
 
 <a id="about"></a>
 ## `01 / WHOAMI` — The engineer behind the systems
@@ -135,9 +187,13 @@ My repositories are not one narrow track. They show how I apply engineering thin
 ---
 
 <a id="skills"></a>
-## `05 / ENGINEERING TOOLKIT` — Skills by problem domain
+## `05 / SKILL ARCADE` — The tools behind the ideas
 
-I organize tools by the work they support, not as one long badge wall. The lists below reflect the technologies and methods represented in my CV and public project repositories.
+I organize tools by the work they support, not as one long badge wall. The visual stack below is a quick scan; the map underneath shows how I use these tools in real projects.
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,cpp,c,js,ts,html,css,react,nextjs,pytorch,tensorflow,opencv,postgres,mysql,sqlite,docker,linux,git,github,vercel,vscode&perline=7" alt="Technology icons: Python, C++, C, JavaScript, TypeScript, HTML, CSS, React, Next.js, PyTorch, TensorFlow, OpenCV, PostgreSQL, MySQL, SQLite, Docker, Linux, Git, GitHub, Vercel, VS Code" />
+</p>
 
 | Domain | Skills & technologies |
 |---|---|
@@ -231,7 +287,39 @@ Public credential records: [Credly profile](https://www.credly.com/users/abdelra
 - **CropTwist:** scientifically grounded geospatial decision support, data quality, optimization, and traceable analytics.
 - **AlgoVerse:** algorithm learning, interactive visualization, and product experience.
 
-## `10 / LIVE ENGINEERING PULSE` — GitHub activity
+<a id="live-telemetry"></a>
+## `10 / LIVE TELEMETRY` — Activity, momentum & reach
+
+A quick pulse of the work, the community around it, and the projects documented here.
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=abdelrahmanelharouny&show_icons=true&hide_border=true&title_color=7AF0C8&text_color=E8EAF6&icon_color=FF9E80&bg_color=0B1020&rank_icon=github&include_all_commits=true" alt="GitHub overview: contributions, stars and pull requests" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdelrahmanelharouny&layout=compact&hide_border=true&title_color=FFD166&text_color=E8EAF6&bg_color=0B1020&langs_count=8" alt="Most-used languages in public repositories" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=abdelrahmanelharouny&hide_border=true&background=0B1020&stroke=303653&ring=FFD166&fire=FF7A90&currStreakLabel=7AF0C8&sideLabels=A9B2D0&dates=8491B0&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub contribution streak" width="80%" />
+</p>
+
+<details>
+<summary>📈 <strong>Open the activity graph</strong> — recent contribution rhythm</summary>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=abdelrahmanelharouny&bg_color=0b1020&color=e8eaf6&line=7af0c8&point=ffd166&area=true&hide_border=true" width="100%" alt="GitHub activity graph for recent contributions" />
+</p>
+</details>
+
+<details>
+<summary>🏆 <strong>Open the achievement shelf</strong> — GitHub milestones</summary>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=abdelrahmanelharouny&theme=discord&no-frame=true&no-bg=true&column=4&margin-w=12" width="100%" alt="GitHub profile trophies" />
+</p>
+</details>
+
+<sub>These cards use community-hosted services and may be cached, rate-limited, or temporarily unavailable. Top Languages reflects public repository code volume—not a measurement of skill level. Contribution and streak cards reflect GitHub activity, not product quality.</sub>
+
+## `11 / LIVE ENGINEERING PULSE` — The contribution trail
 
 The contribution animation below is generated automatically by this repository's GitHub Actions workflow. It reflects the GitHub contribution graph; it is an activity view, not a measure of engineering quality.
 
@@ -255,15 +343,15 @@ The contribution animation below is generated automatically by this repository's
 </details>
 
 <a id="connect"></a>
-## `11 / CONNECT` — Let's build something meaningful
+## `12 / CONNECT` — Let's build something meaningful
 
 I'm open to thoughtful conversations, engineering collaboration, and opportunities around **Machine Learning, Applied AI, AI Engineering, and intelligent products**.
 
 <p align="center">
   <a href="https://github.com/abdelrahmanelharouny"><img src="https://img.shields.io/badge/GitHub-Follow-14252B?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://www.linkedin.com/in/abdelrahman-el-harouny-150363286/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/eng-abdelrahman-elharouny/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://www.kaggle.com/abdelrahmanelharouny"><img src="https://img.shields.io/badge/Kaggle-Explore-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" /></a>
   <a href="https://www.credly.com/users/abdelrahman-el-harouny.88e314c3"><img src="https://img.shields.io/badge/Credly-Credentials-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly" /></a>
 </p>
 
-<p align="center"><sub>Designed around curiosity. Built with evidence. Improved through iteration.</sub></p>
+<p align="center"><sub>Curious by default. Serious about the craft. Always building the next thing.</sub></p>
