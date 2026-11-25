@@ -1,6 +1,9 @@
 name: Refresh profile telemetry
 
 on:
+  pull_request:
+    branches:
+      - main
   schedule:
     - cron: "23 */6 * * *"
   workflow_dispatch:
@@ -31,12 +34,14 @@ jobs:
         run: python -m unittest discover -s tests -v
 
       - name: Generate the live metrics dashboard
+        if: github.event_name != 'pull_request'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: abdelrahmanelharouny
         run: python scripts/generate_profile_metrics.py --output dist/profile-metrics.svg
 
       - name: Publish dashboard to the output branch
+        if: github.event_name != 'pull_request'
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
