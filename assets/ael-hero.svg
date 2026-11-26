@@ -1,73 +1,101 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="520" viewBox="0 0 1440 520" role="img" aria-labelledby="title desc">
-<title id="title">Abdelrahman El-Harouny — Applied Intelligence and Engineering</title>
-<desc id="desc">A restrained technical identity built around real-world problem solving, applied artificial intelligence, machine learning, and reliable software systems.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500" role="img" aria-labelledby="title desc">
+<title id="title">Abdelrahman El-Harouny — From Signal to System</title>
+<desc id="desc">An editorial engineering banner where scattered signals and flowing topographic contours resolve into a precise geometric system.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0A0F12"/><stop offset=".58" stop-color="#10191D"/><stop offset="1" stop-color="#0B1215"/></linearGradient>
-  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#D7F36A"/><stop offset="1" stop-color="#A6DDA8"/></linearGradient>
-  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#162329"/><stop offset="1" stop-color="#10191D"/></linearGradient>
-  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#8FA49A" stroke-opacity=".09" stroke-width="1"/></pattern>
-  <radialGradient id="glow"><stop stop-color="#C9EE6A" stop-opacity=".16"/><stop offset="1" stop-color="#C9EE6A" stop-opacity="0"/></radialGradient>
-  <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+  <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F1EFE5"/><stop offset="1" stop-color="#E4E2D6"/></linearGradient>
+  <pattern id="paperGrid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#6E786F" stroke-width=".65" opacity=".10"/></pattern>
+  <pattern id="microDots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r=".8" fill="#536B5F" opacity=".26"/></pattern>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#19372F" flood-opacity=".13"/></filter>
+  <clipPath id="artClip"><rect x="730" y="0" width="870" height="500"/></clipPath>
 </defs>
-<rect width="1440" height="520" rx="24" fill="url(#bg)"/>
-<rect width="1440" height="520" rx="24" fill="url(#grid)"/>
-<circle cx="1150" cy="242" r="330" fill="url(#glow)" filter="url(#soft)"/>
-<path d="M64 92H1376" stroke="#34434A" stroke-width="1"/>
-<path d="M64 450H1376" stroke="#34434A" stroke-width="1"/>
-<g font-family="Arial,Helvetica,sans-serif">
-  <rect x="76" y="45" width="42" height="34" rx="5" fill="#D7F36A"/>
-  <text x="97" y="68" text-anchor="middle" fill="#101719" font-size="16" font-weight="800" letter-spacing="-1">AEL</text>
-  <text x="134" y="58" fill="#D7F36A" font-family="monospace" font-size="12" font-weight="700" letter-spacing="2.4">APPLIED INTELLIGENCE / ENGINEERING</text>
-  <text x="134" y="77" fill="#75868B" font-family="monospace" font-size="10" letter-spacing="1.5">PERSONAL RESEARCH &amp; BUILD LOG</text>
-  <text x="1370" y="65" text-anchor="end" fill="#91A19F" font-family="monospace" font-size="11" letter-spacing="1.4">DAMITTA, EGYPT</text>
-
-  <text x="78" y="169" fill="#F1F3EC" font-size="58" font-weight="800" letter-spacing="-2.4">ABDELRAHMAN</text>
-  <text x="78" y="235" fill="#F1F3EC" font-size="58" font-weight="800" letter-spacing="-2.4">EL-HAROUNY</text>
-  <rect x="80" y="265" width="72" height="4" rx="2" fill="url(#accent)"/>
-  <text x="80" y="319" fill="#D7F36A" font-size="28" font-weight="700" letter-spacing="-.6">Complex problems. Engineered intelligence.</text>
-  <text x="82" y="359" fill="#B5C0BC" font-size="17">I build intelligent systems from real-world problems — from research and data</text>
-  <text x="82" y="385" fill="#B5C0BC" font-size="17">to reliable software, measurable evaluation, and products people can use.</text>
-
-  <text x="82" y="425" fill="#81918D" font-family="monospace" font-size="11" font-weight="700" letter-spacing="1.7">COMPUTER SCIENCE</text>
-  <circle cx="246" cy="421" r="2.5" fill="#D7F36A"/>
-  <text x="264" y="425" fill="#81918D" font-family="monospace" font-size="11" font-weight="700" letter-spacing="1.7">APPLIED AI &amp; ML</text>
-  <circle cx="408" cy="421" r="2.5" fill="#D7F36A"/>
-  <text x="426" y="425" fill="#81918D" font-family="monospace" font-size="11" font-weight="700" letter-spacing="1.7">PRODUCT ENGINEERING</text>
+<rect width="1600" height="500" fill="url(#paper)"/>
+<rect width="1600" height="500" fill="url(#paperGrid)"/>
+<path d="M64 88H1536M64 438H1536" stroke="#B9B9A9" stroke-width="1"/>
+<g font-family="Arial, Helvetica, sans-serif">
+  <rect x="66" y="40" width="42" height="34" rx="4" fill="#183E35"/>
+  <path d="M76 64L87 48L98 64M81 57H93" fill="none" stroke="#F1EFE5" stroke-width="2.2" stroke-linecap="square"/>
+  <text x="124" y="54" fill="#24483E" font-family="monospace" font-size="12" font-weight="700" letter-spacing="2.5">AEL / ENGINEERING FIELD NOTES</text>
+  <text x="124" y="72" fill="#777B6E" font-family="monospace" font-size="9" letter-spacing="1.7">APPLIED INTELLIGENCE · SYSTEMS DESIGN</text>
+  <text x="1534" y="60" text-anchor="end" fill="#777B6E" font-family="monospace" font-size="10" letter-spacing="1.5">DAMIETTA / EGYPT   —   01</text>
 </g>
-
-<g transform="translate(1056 278)">
-  <rect x="-226" y="-170" width="452" height="340" rx="18" fill="url(#panel)" stroke="#2A3A3F"/>
-  <path d="M-196 -118H196M-196 -56H196M-196 6H196M-196 68H196" stroke="#314249" stroke-width="1" stroke-dasharray="3 8"/>
-  <path d="M-145 -135V128M-48 -135V128M49 -135V128M146 -135V128" stroke="#314249" stroke-width="1" stroke-dasharray="3 8"/>
-  <text x="-190" y="-137" fill="#8C9B97" font-family="monospace" font-size="10" letter-spacing="1.8">FROM PROBLEM TO PRODUCT</text>
-
-  <g fill="none" stroke="#8FA39A" stroke-width="1.7">
-    <path d="M-126 -72H-44L8 -22H95"/>
-    <path d="M-126 83H-44L8 34H95"/>
-    <path d="M-44 -72V83"/>
-    <path d="M8 -22V34"/>
-    <path d="M95 -22L143 -72M95 34L143 83"/>
+<g font-family="Arial, Helvetica, sans-serif">
+  <text x="66" y="168" fill="#18312C" font-size="68" font-weight="800" letter-spacing="-2.7">FROM SIGNAL</text>
+  <text x="66" y="244" fill="#18312C" font-size="68" font-weight="800" letter-spacing="-2.7">TO <tspan fill="#B85F43">SYSTEM.</tspan></text>
+  <path d="M68 270H270" stroke="#B85F43" stroke-width="4"/>
+  <text x="68" y="324" fill="#263D36" font-size="24" font-weight="700" letter-spacing="-.2">Abdelrahman El-Harouny</text>
+  <text x="68" y="354" fill="#657269" font-size="15" letter-spacing=".25">Computer Science  /  Applied AI &amp; Machine Learning</text>
+  <text x="68" y="382" fill="#657269" font-size="15" letter-spacing=".25">I turn complex problems into intelligent, usable systems.</text>
+  <g transform="translate(68 405)" font-family="monospace" font-size="9" font-weight="700" letter-spacing="1.25">
+    <text x="0" y="0" fill="#24483E">RESEARCH</text><circle cx="78" cy="-3" r="2" fill="#C86B4A"/>
+    <text x="92" y="0" fill="#24483E">ENGINEERING</text><circle cx="201" cy="-3" r="2" fill="#C86B4A"/>
+    <text x="215" y="0" fill="#24483E">REAL-WORLD IMPACT</text>
   </g>
-  <g fill="#10191D" stroke="#D7F36A" stroke-width="2">
-    <rect x="-176" y="-98" width="100" height="52" rx="8"/>
-    <rect x="-176" y="57" width="100" height="52" rx="8"/>
-    <rect x="-94" y="-12" width="100" height="52" rx="8"/>
-    <rect x="76" y="-48" width="104" height="52" rx="8"/>
-    <rect x="126" y="57" width="72" height="52" rx="8"/>
-  </g>
-  <g fill="#DCE4DE" font-family="monospace" font-size="10" font-weight="700" text-anchor="middle" letter-spacing=".8">
-    <text x="-126" y="-67">RESEARCH</text>
-    <text x="-126" y="88">DATA</text>
-    <text x="-44" y="19">MODEL</text>
-    <text x="128" y="-17">SYSTEM</text>
-    <text x="162" y="88">IMPACT</text>
-  </g>
-  <g fill="#D7F36A">
-    <circle cx="-44" cy="-72" r="4"/><circle cx="-44" cy="83" r="4"/>
-    <circle cx="8" cy="-22" r="4"/><circle cx="8" cy="34" r="4"/>
-    <circle cx="95" cy="-22" r="4"/><circle cx="95" cy="34" r="4"/>
-  </g>
-  <text x="-190" y="147" fill="#748783" font-family="monospace" font-size="9" letter-spacing="1.3">UNDERSTAND  /  BUILD  /  VALIDATE  /  SHIP</text>
 </g>
-<text x="1370" y="487" text-anchor="end" fill="#667773" font-family="monospace" font-size="10" letter-spacing="1.4">AEL / PROFILE 01</text>
+<path d="M704 112V414M696 112H712M696 414H712" stroke="#A8AA9B" stroke-width="1"/>
+<g clip-path="url(#artClip)">
+  <rect x="730" y="0" width="870" height="500" fill="#E9E7DC"/>
+  <rect x="730" y="0" width="870" height="500" fill="url(#microDots)" opacity=".44"/>
+  <g fill="none" stroke="#56796A" stroke-width="1.35" opacity=".62">
+    <path d="M690 108C790 48 836 210 924 138S1054 42 1130 110S1250 160 1320 55S1480 14 1640 85"/>
+    <path d="M690 126C793 64 842 228 932 157S1053 66 1138 130S1253 178 1329 74S1482 34 1640 102"/>
+    <path d="M690 145C790 83 850 248 941 177S1062 88 1148 150S1266 195 1340 93S1493 54 1640 121"/>
+    <path d="M690 164C800 102 860 265 951 197S1070 108 1160 170S1274 214 1350 113S1506 74 1640 143"/>
+    <path d="M690 184C807 124 869 286 964 218S1082 128 1175 190S1288 235 1366 133S1518 96 1640 163"/>
+    <path d="M690 204C813 148 880 307 980 241S1095 151 1190 210S1302 255 1384 154S1532 117 1640 184"/>
+    <path d="M690 224C820 171 894 329 995 264S1110 174 1205 232S1318 276 1402 176S1548 139 1640 205"/>
+    <path d="M690 246C827 196 908 350 1012 286S1127 198 1222 254S1337 298 1420 198S1564 160 1640 226"/>
+    <path d="M690 269C834 222 922 373 1032 309S1145 221 1240 277S1354 320 1440 220S1582 182 1640 248"/>
+    <path d="M690 293C842 247 940 396 1050 333S1164 245 1260 300S1375 342 1458 243S1597 204 1640 269"/>
+    <path d="M690 318C850 273 958 420 1070 357S1180 270 1280 324S1395 366 1478 266S1610 227 1640 293"/>
+    <path d="M690 343C860 300 975 444 1092 382S1200 296 1300 348S1412 390 1498 291S1622 252 1640 317"/>
+    <path d="M690 370C870 328 992 468 1110 408S1220 322 1320 373S1430 416 1518 318S1630 278 1640 342"/>
+  </g>
+  <g fill="#C86B4A" opacity=".82">
+    <circle cx="765" cy="86" r="3"/><circle cx="803" cy="175" r="2"/><circle cx="824" cy="276" r="2.6"/>
+    <circle cx="857" cy="116" r="1.8"/><circle cx="876" cy="342" r="2.5"/><circle cx="895" cy="218" r="1.8"/>
+    <circle cx="914" cy="72" r="2.3"/><circle cx="938" cy="392" r="2"/><circle cx="953" cy="160" r="2.8"/>
+    <circle cx="980" cy="285" r="1.7"/><circle cx="1004" cy="104" r="2.2"/><circle cx="1023" cy="366" r="2"/>
+  </g>
+  <g stroke="#C86B4A" stroke-width="1" opacity=".55"><path d="M778 91l10 -8M814 181l9 6M845 268l9 -4M884 339l9 5M921 76l8 6M960 164l9 -7M997 287l10 3"/></g>
+  <g filter="url(#shadow)">
+    <path d="M1112 166L1292 86L1466 167L1284 252Z" fill="#D7D6C8" stroke="#284E43" stroke-width="1.3"/>
+    <path d="M1112 166L1284 252V414L1112 329Z" fill="#24483E"/>
+    <path d="M1284 252L1466 167V329L1284 414Z" fill="#183A33"/>
+    <path d="M1112 166L1292 86L1466 167L1284 252Z" fill="#F0EEE4" opacity=".88"/>
+  </g>
+  <g stroke="#537666" stroke-width="1" opacity=".66" fill="none">
+    <path d="M1152 148L1322 229M1192 130L1364 210M1233 112L1405 191M1273 94L1445 173"/>
+    <path d="M1152 148L1334 67M1192 167L1374 86M1232 186L1414 105M1273 205L1455 124"/>
+    <path d="M1162 191V354M1202 210V374M1243 230V394M1284 252V414"/>
+    <path d="M1328 231V393M1372 210V372M1418 190V351"/>
+    <path d="M1112 208L1284 294L1466 209M1112 250L1284 336L1466 251M1112 290L1284 376L1466 291"/>
+  </g>
+  <g>
+    <path d="M1250 146L1300 123L1350 146L1300 170Z" fill="#C86B4A"/>
+    <path d="M1250 146L1300 170V221L1250 196Z" fill="#A85039"/>
+    <path d="M1300 170L1350 146V197L1300 221Z" fill="#7F3F31"/>
+    <circle cx="1300" cy="170" r="5" fill="#F1EFE5"/>
+  </g>
+  <g stroke="#D9E3D5" stroke-width="1.2" fill="none" opacity=".9">
+    <path d="M1300 221V286L1404 333M1300 286L1200 335M1300 286V390"/>
+    <path d="M1192 318H1244V370H1192ZM1270 336H1322V388H1270ZM1350 300H1402V352H1350Z"/>
+  </g>
+  <g fill="#D7E0D2" stroke="#24483E" stroke-width="1.2">
+    <rect x="1192" y="318" width="52" height="52"/><rect x="1270" y="336" width="52" height="52"/><rect x="1350" y="300" width="52" height="52"/>
+  </g>
+  <g stroke="#24483E" stroke-width="1.2" fill="none">
+    <path d="M1202 328H1234M1202 338H1234M1202 348H1234M1202 358H1234"/>
+    <path d="M1280 346H1312M1280 356H1312M1280 366H1312M1280 376H1312"/>
+    <path d="M1360 310H1392M1360 320H1392M1360 330H1392M1360 340H1392"/>
+  </g>
+  <g font-family="monospace" font-size="9" font-weight="700" letter-spacing="1.3">
+    <text x="770" y="460" fill="#B85F43">01 / RAW SIGNAL</text><path d="M770 444H907" stroke="#B85F43" stroke-width="1"/>
+    <text x="1108" y="460" fill="#24483E">02 / STRUCTURED SYSTEM</text><path d="M1108 444H1288" stroke="#24483E" stroke-width="1"/>
+  </g>
+  <g stroke="#A8AA9B" stroke-width="1" opacity=".7">
+    <path d="M748 28V42M748 35H762M1530 28V42M1516 35H1530"/>
+    <path d="M748 458V472M748 465H762M1530 458V472M1516 465H1530"/>
+  </g>
+</g>
+<text x="1534" y="480" text-anchor="end" fill="#858779" font-family="monospace" font-size="8" letter-spacing="1.15">THINK CLEARLY. BUILD RELIABLY.</text>
 </svg>
